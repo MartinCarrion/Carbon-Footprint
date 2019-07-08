@@ -52,6 +52,19 @@ Application would analyze the average Carbon Footprint of an individual in Oklah
   - Vehicle: spend ($/month) * 12 * EF (kg CO2e/$) = emissions (kg CO2e/yr)
   - Communications : spend ($/month) * 12 * EF (kg CO2e/$) = emissions (kg CO2e/yr)
   - Other : spend ($/month) * 12 * EF (kg CO2e/$) = emissions (kg CO2e/yr)
+ 
+# Conversions
+# Development
+# User Steps
+# Authors
+# Informational
+
+
+
+
+
+
+
 
 
 
