@@ -10,7 +10,10 @@ Application would analyze the average Carbon Footprint of an individual in Oklah
 - Calculations data for Carbon Footprint is provided at: http://shrinkthatfootprint.com/calculate-your-carbon-footprint
 
 # Questions
-- 
+- House or Apartment?
+- People in Household?
+- Car, Truck, Bus?
+- Meats, Vegetarian, Vegan?
 # Calculations
 - **Housing**
   - Electricity : use (kWh/yr) * EF (kg CO2e/kWh) = emissions (kg CO2e/yr)
@@ -57,6 +60,7 @@ Application would analyze the average Carbon Footprint of an individual in Oklah
 # Development
 # User Steps
 # Authors
+- **Martin Carrion**
 # Informational
 
 
