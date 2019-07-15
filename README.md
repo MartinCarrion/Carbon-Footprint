@@ -8,7 +8,9 @@ Application would analyze the average Carbon Footprint of an individual in Oklah
 - https://data.okc.gov/portal/page/viewer?datasetName=Census%20Tracts%202010&view=map is the primary source in gatering census data per tract in Oklahoma City, OK. 
 - To gather Carbon Footprint data for an individual, one would have to answer the questions provded in the application.
 - Calculations data for Carbon Footprint is provided at: http://shrinkthatfootprint.com/calculate-your-carbon-footprint
-
+- Might have to Calculate per state of 2010 and divide by the population of 2010 to get per capita
+- OR
+- Get a average of emissions for Types of Housing, Per Capita, Per Vehicle, etc.
 # Questions
 - House or Apartment?
 - People in Household?
@@ -57,6 +59,7 @@ Application would analyze the average Carbon Footprint of an individual in Oklah
   - Other : spend ($/month) * 12 * EF (kg CO2e/$) = emissions (kg CO2e/yr)
  
 # Conversions
+
 # Development
 # User Steps
 # Authors
