@@ -62,6 +62,12 @@ Application would analyze the average Carbon Footprint of an individual in Oklah
 
 # Development
 # User Steps
+1. User Clicks on "Get Started" buttons
+2. User Clicks on either "House" or "Apartment" buttons
+3. User Types in number of people in household in blank box.
+4. User Clicks on either "Car", "Truck", "Bus".
+5. User Clicks on either "Meat", "Vegetarian", "Vegan".
+6. User then Clicks on Finish.
 # Authors
 - **Martin Carrion**
 # Informational
