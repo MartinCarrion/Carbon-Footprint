@@ -1,15 +1,24 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding:0;
+    width:90%;
+    margin:auto;
+    min-width:1px;
+    max-width:2000px;
+    
+}
+footer {
+    color: black;
+    font-size:x-small;
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding:0;
+
+   
 }
 
 /* Carousel */
@@ -29,11 +38,32 @@ body {
 }
 
 /* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
+@media screen (max-width: 900px) and (min-width:1000px){
     /* Hide captions */
     .carousel-caption {
         display: none;
     }
 }
+.TNC{
+    position:absolute;
+    bottom:0px;
+    left:200px;
+}
+.CF{
+    position:absolute;
+    bottom:0px;
+    left:10px;
+}
+.Wildlife {
+    position: absolute;
+    bottom: 10px;
+    left: 850px;
+}
+.EPA{
+    position:absolute;
+    bottom:10px;
+    left:1045px;
+}
+
 
 
