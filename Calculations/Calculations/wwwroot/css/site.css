@@ -11,6 +11,7 @@ body {
 footer {
     color: black;
     font-size:x-small;
+    background-color: black
 }
 
 /* Wrapping element */
@@ -45,24 +46,40 @@ footer {
     }
 }
 .TNC{
-    position:absolute;
+    position:fixed;
     bottom:0px;
-    left:200px;
+    left:400px;
 }
 .CF{
-    position:absolute;
+    position:fixed;
     bottom:0px;
-    left:10px;
+    left:40px;
 }
 .Wildlife {
     position: absolute;
     bottom: 10px;
-    left: 850px;
+    left: 1000px;
 }
 .EPA{
     position:absolute;
     bottom:10px;
-    left:1045px;
+    left:1300px;
 }
+.LearnMorebtn{
+    background-color:darkgreen;
 
+}
+.Calculatebtn{
+    position:fixed;
+    bottom:350px;
+    left:800px;
+    background-color:darkgreen;
+
+}
+.Calculatebtn:hover{
+    background-color:lightgreen;
+}
+.LearnMorebtn:hover{
+    background-color:lightgreen;
+}
 

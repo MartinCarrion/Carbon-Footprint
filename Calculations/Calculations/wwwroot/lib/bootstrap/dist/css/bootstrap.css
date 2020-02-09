@@ -85,6 +85,8 @@ sub {
 }
 img {
   border: 0;
+  position:fixed;
+  bottom:10px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -118,7 +120,10 @@ textarea {
   color: inherit;
 }
 button {
-  overflow: visible;
+    overflow: visible;
+    position: fixed;
+    bottom: 350px;
+    left: 500px;
 }
 button,
 select {
@@ -1287,7 +1292,11 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+    margin: 0 0 10px;
+    position: fixed;
+    bottom: 10px;
+    left: 650px;
+    color: antiquewhite;
 }
 .lead {
   margin-bottom: 20px;
