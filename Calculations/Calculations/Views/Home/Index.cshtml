@@ -50,13 +50,67 @@
             transform: translate(-50%, -50%);
         }
         
-        
+        .form-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+
+        }
+        .form-container {
+            background-color: black;
+            width: 1000px;
+            height: 520px;
+            position: absolute;
+            bottom: 100px;
+            right: 250px;
+            background-image: url(https://p0.piqsels.com/preview/221/357/156/sunrise-nature-dusk-sky.jpg);
+            background-position-x: center;
+            border-style: double;
+        }
+
+        .cancelbtn {
+            position: absolute;
+            left: 962px;
+            bottom: 476px;
+            background: bottom;
+            border-style: none;
+        }
     </style>
 </head>
-<body style="background-image:url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">
+<body style="background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ">
     <button type="button" class="LearnMorebtn" style="color:darkgray;">Learn More!</button>
-    <button type="button" class="Calculatebtn" style="color:darkgray;">Calculate!</button>
-   
+    @*<button type="button" class="Calculatebtn" style="color:darkgray;">Calculate!</button>*@
+    <button class="Calculatebtn" onclick="openForm()">Calculate!</button>
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Carbon Footprint</h1>
+
+            @*<label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>*@
+
+            @*<label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>*@
+
+            @*<button type="submit" class="btnLogin">Login</button>*@
+            <button type="button" class="cancelbtn" onclick="closeForm()">X</button>
+        </form>
+    </div>
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+
+
 
     <div class="container">
 
